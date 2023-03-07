@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FzmCameraSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Camera SDK used on iOS fuzhimin"
 
   spec.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/fuzhimin/FzmCameraSDK.git"
   spec.license      = "MIT"
 
-  spec.author             = { "ron_fu" => "ron_fu@askey.com" }
+  spec.author             = { "fuzhimin" => "ron.fu@cdskysoft.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/fuzhimin/FzmCameraSDK.git", :tag => "#{spec.version}" }
   spec.source_files  = "CameraSDK.framework/Headers/*.{h}"
